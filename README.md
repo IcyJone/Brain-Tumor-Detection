@@ -37,13 +37,11 @@ The model is evaluated on the test set, and metrics such as accuracy, precision,
 # Saving the Model
 Once training is complete, the model is saved to the file Brain_tumor_detection_model.keras. You can later load this model for inference or further fine-tuning.
 
-
-Use the Model in a Flask App (app.py)
-
+# Deployment
+1. Use the Model in a Flask App (app.py)
  Once the model is trained and saved, you can use the app.py script to deploy a simple Flask web application.
 
-Test the Model on New MRI Images (test.py)
-
+2. Test the Model on New MRI Images (test.py)
  The test.py script allows users to input a new MRI image and get a prediction.
 
 ![Sample Output](https://github.com/user-attachments/assets/92c1ffa8-1e37-437f-86cb-d0eeb99d6d5d)
