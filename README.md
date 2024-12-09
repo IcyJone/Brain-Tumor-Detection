@@ -12,6 +12,14 @@ The dataset is divided into two directories:
 Training: Contains training images categorized into four subfolders: glioma, meningioma, notumor, and pituitary.
 Testing: Contains test images categorized in the same way.
 
+# Dependencies
+Flask
+TensorFlow
+NumPy
+Matplotlib
+Pandas
+Requests
+
 # Model Architecture
 
 The CNN model used in this project has the following architecture:
@@ -39,9 +47,11 @@ Once training is complete, the model is saved to the file Brain_tumor_detection_
 
 # Deployment
 1. Use the Model in a Flask App (app.py)
+ 
  Once the model is trained and saved, you can use the app.py script to deploy a simple Flask web application.
 
 2. Test the Model on New MRI Images (test.py)
+ 
  The test.py script allows users to input a new MRI image and get a prediction.
 
 ![Sample Output](https://github.com/user-attachments/assets/92c1ffa8-1e37-437f-86cb-d0eeb99d6d5d)
