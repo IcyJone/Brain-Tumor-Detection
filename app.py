@@ -7,7 +7,7 @@ import io
 app = Flask(__name__)
 
 # Load the model
-model = tf.keras.models.load_model(r'C:\Users\jones\OneDrive\Desktop\Brain_Tumor_Detection\Brain_tumor_model.keras')
+model = tf.keras.models.load_model(r'\Brain_tumor_model.keras')
 
 # Define the categories
 categories = ["glioma", "meningioma", "notumor", "pituitary"]
