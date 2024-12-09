@@ -54,6 +54,7 @@ Once training is complete, the model is saved to the file Brain_tumor_detection_
  
  The test.py script allows users to input a new MRI image and get a prediction.
 
+# Example Output
 ![Sample Output](https://github.com/user-attachments/assets/92c1ffa8-1e37-437f-86cb-d0eeb99d6d5d)
 
 
